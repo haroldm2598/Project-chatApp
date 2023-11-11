@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$color--100: #386641;
+$color--200: #6a994e;
+$color--300: #a7c957;
+$color--400: #f8eac7;
+$color--500: #bc4749;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header__navbar {
+	background-color: $color--200;
+	box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.person2 {
+	background-color: $color--500;
+}
+
+.sidebar {
+	background-color: $color--200;
+}
+
+.homepage {
+	background-color: $color--400;
+}
+
+.button {
+	background-color: $color--300;
+}
+
+.login {
+	background-color: $color--200;
+	box-shadow: 7px 8px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
